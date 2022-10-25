@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../image/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background-size: cover;
+background-image: url(../image/istockphoto-490557198-612x612.jpg);
+    position: absolute;
+    animation : change  4s  linear  2s   1    alternate both   running ;
+}
+@keyframes change {
+    0% { left: 0px; }
+    
+    100% { left:1180px; }
+}   
+.div2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background-size: cover;
+background-image: url(../image/images.jfif);
+    position: absolute;
+   margin-top: 100;
+    animation : change  4s  linear  6s  1 reverse  both running ;
+}
+.div3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background-size: cover;
+background-image: url(../image/istockphoto-172248581-612x612.jpg);
+    position: absolute;
+   margin-top: 200;
+    animation : change  4s  linear  10s   1    alternate both  running ;
+
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background-size: cover;
+background-image: url(../image/istockphoto-1064282352-612x612.jpg);
+    position: absolute;
+   margin-top: 300;
+    animation : change  4s  linear 14s   1  reverse  both  running ;
+}
+.div5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background-size: cover;
+background-image: url(../image/istockphoto-1009152604-612x612.jpg);
+    position: absolute;
+   margin-top: 400;
+    animation : change  4s  linear  18s   1    alternate both   running ;
+}
+.div6{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background-size: cover;
+background-image: url(../image/nasa-ScBkW9AKgcA-unsplash.jpg);
+    position: absolute;
+   margin-top: 500;
+    animation : change  4s  linear 22s  1  reverse  both  running ;
+}
